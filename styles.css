@@ -1,0 +1,167 @@
+/* Reset and Basics */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+ 
+ body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	line-height: 1.6;
+	background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('background-concept-wordcloud-illustration-of-project-manager-glowing-F4M22M.jpg') no-repeat center center fixed;
+	background-size: cover;
+	color: #fff;
+	margin: 0;
+ }
+ 
+ .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+ }
+ 
+ .header {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	padding: 20px 0;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1000;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .header h1 {
+	font-size: 3rem;
+	margin: 0;
+	text-transform: uppercase;
+ }
+ 
+ .header nav ul {
+	list-style-type: none;
+	margin-top: 20px;
+ }
+ 
+ .header nav ul li {
+	display: inline-block;
+	margin-right: 30px;
+ }
+ 
+ .header nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-size: 1.2rem;
+	transition: color 0.3s ease;
+ }
+ 
+ .header nav ul li a:hover {
+	color: #ff9900;
+ }
+ 
+ .section {
+	padding: 200px 0 100px;
+	text-align: center;
+ }
+ 
+ .section h2 {
+	font-size: 4rem;
+	margin-bottom: 20px;
+	color: #ff9900;
+ }
+ 
+ .section p {
+	font-size: 1.4rem;
+	line-height: 1.8;
+	margin-bottom: 30px;
+ }
+ 
+ .intro blockquote {
+	font-style: italic;
+	margin: 20px 0;
+	font-size: 1rem;
+	color: #ccc;
+ }
+ 
+ .button-container {
+	margin-top: 40px;
+ }
+ 
+ .btn-primary {
+	display: inline-block;
+	background-color: #ff9900;
+	color: #fff;
+	padding: 10px 30px;
+	font-size: 2rem;
+	text-decoration: none;
+	border-radius: 4px;
+	transition: background-color 0.3s ease, transform 0.3s ease;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn-primary:hover {
+	background-color: #ff6600;
+	transform: translateY(-3px);
+ }
+ 
+ .images {
+	margin-top: 50px;
+	border: 2px solid black;
+	border-radius: 8px;
+ }
+ 
+ .images img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 8px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .footer {
+	background-color: rgba(0, 0, 0, 0.9);
+	color: #fff;
+	text-align: center;
+	padding: 30px 0;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.2);
+ }
+ .footer .container{
+	font-size: 1.3rem;
+ }
+ 
+ /* Services Section */
+ .services {
+	background-color: #222;
+	color: #fff;
+ }
+ 
+ .services-list {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-top: 50px;
+ }
+ 
+ .service {
+	flex: 1 1 300px;
+	margin: 20px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.1);
+	border-radius: 8px;
+	text-align: center;
+ }
+ 
+ .service h3 {
+	font-size: 2rem;
+	margin-bottom: 10px;
+	color: #ff9900;
+ }
+ 
+ .service p {
+	font-size: 2.1rem;
+	line-height: 1.6;
+	color: #ccc;
+ }
+ 
